@@ -1,8 +1,8 @@
 build:
 	cargo build
 
-releae:
-	cargo release
+release:
+	cargo build --release
 
 run_debug_dryrun:
 	./target/debug/rust-zombies
